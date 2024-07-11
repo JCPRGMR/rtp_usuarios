@@ -2,8 +2,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Css/Login_1.css">
-    <title>Soy un login</title>
+    <link rel="stylesheet" href="Css/Login_2.css">
+    <title>Aloja</title>
 </head>
 <body class="login_body">
     <div class="login_bg">img</div>
@@ -13,7 +13,7 @@
         </div>
         <form action="" method="post" class="login_form_body">
             <div class="form_img_user">
-                <img src="../Imgs/rtp_mundo.jpg" alt="">
+                <img src="Imgs/rtp_mundo.jpg" alt="">
             </div>
             <div class="form_data_user">
                 <div class="login_form_text">
@@ -24,7 +24,7 @@
                     <label for="contrasena">Contraseña</label>
                     <div>
                         <input type="password" name="" id="contrasena" placeholder="Contraseña">
-                        <div class="login_key" id="constrasena_key">CD</div>
+                        <div class="login_key" id="btnLogin_lock">CD</div>
                     </div>
                 </div>
                 <div class="login_form_button">
@@ -37,4 +37,4 @@
         <div class="login_form_footer"></div>
     </div>
 </body>
-<script src="../Js/login_password.js"></script>
+<script src="Js/login_password.js"></script>

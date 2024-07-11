@@ -1,11 +1,10 @@
-var contrasenaKey = document.getElementById("contrasena_key");
-var contrasena = document.getElementById("contrasena");
+[btnLogin_lock, contrasena
+] = [
+    "btnLogin_lock",
+     "contrasena"
+].map(document.getElementById, document);
 
-contrasenaKey.addEventListener('click', function() {
-    contrasena.value = "hola mundo"
-    if (contrasena.type === "password") {
-        contrasena.type = "text";
-    } else {
-        contrasena.type = "password";
-    }
+
+btnLogin_lock.addEventListener('click', function() {
+    contrasena.type = (contrasena.type === "password")? "text" : "password"
 });
